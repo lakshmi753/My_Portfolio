@@ -1,0 +1,77 @@
+:root {
+  --primary-color: rgb(253, 198, 208);
+  --secondary-color: black;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+}
+
+header {
+  height: 110px;
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  border-bottom: solid 1px var(--primary-color);
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 40px;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+.header-img {
+  height: 110px;
+  width: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.header-img p {
+  font-size: 30px;
+}
+
+.dev-pic {
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+}
+
+.links-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 30px;
+  font-family: sans-serif;
+}
