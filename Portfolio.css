@@ -5,7 +5,10 @@
 
 body {
   background-color: var(--primary-color);
+  padding: 0;
   margin: 0;
+  margin-top: 130px;
+  font-family: sans-serif;
 }
 
 header {
@@ -44,6 +47,7 @@ header {
 
 .header-img p {
   font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .dev-pic {
@@ -69,7 +73,7 @@ header {
   gap: 20px;
 }
 
-.nav-link a {
+.nav-link {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 30px;
@@ -80,4 +84,61 @@ header {
   height: 50px;
   width: 50px;
   cursor: pointer;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  height: 650px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  background: url("images/bg-img/dark-quote1.jpeg") no-repeat center
+    center/cover;
+}
+
+.home-box1 {
+  display: flex;
+  align-items: flex-start;
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.home-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 1000px;
+  border: 1px solid var(--secondary-color);
+  margin-top: 60px;
+  box-shadow: 3px 3px 10px var(--secondary-color);
+}
+
+.quote-box p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  line-height: 2cm;
+  font-weight: bolder;
+  color: var(--secondary-color);
 }
