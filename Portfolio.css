@@ -80,6 +80,14 @@ header {
   font-family: sans-serif;
 }
 
+.nav-item {
+  transition: transform 0.4s;
+}
+
+.nav-item:hover {
+  transform: translateY(-50%);
+}
+
 .dark-pic {
   height: 50px;
   width: 50px;
@@ -110,7 +118,7 @@ header {
 .home-box1 {
   display: flex;
   align-items: flex-start;
-  color: var(--secondary-color);
+  color: black;
   font-size: 30px;
   font-weight: bolder;
   padding-top: 50px;
@@ -129,9 +137,9 @@ header {
   justify-content: center;
   height: 300px;
   width: 1000px;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid black;
   margin-top: 60px;
-  box-shadow: 3px 3px 10px var(--secondary-color);
+  box-shadow: 3px 3px 10px black;
 }
 
 .quote-box p {
@@ -141,9 +149,13 @@ header {
   line-height: 2cm;
   font-weight: bolder;
   text-align: center;
-  color: var(--secondary-color);
+  color: black;
 }
 
 .hidden {
   display: none;
+}
+
+.about {
+  border-bottom: 1px solid black;
 }
