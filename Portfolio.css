@@ -140,5 +140,10 @@ header {
   font-size: 30px;
   line-height: 2cm;
   font-weight: bolder;
+  text-align: center;
   color: var(--secondary-color);
+}
+
+.hidden {
+  display: none;
 }
