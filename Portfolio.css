@@ -326,16 +326,19 @@ header {
   height: 50px;
   width: 50px;
   font-size: 35px;
-  color: aqua;
-  background-color: rgb(25, 91, 91);
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(255, 77, 137);
   border: none;
   border-radius: 25px;
   transform: translateY(-50%);
   cursor: pointer;
+  box-shadow: 3px 3px 5px var(--secondary-dark-color);
+  transition: background-color 0.15s;
 }
 
 .slide-btn:hover {
-  background-color: rgb(113, 152, 152);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #prev-btn {
@@ -372,4 +375,8 @@ header {
   border: 1px solid rgb(255, 77, 137);
   background-color: rgb(254, 205, 234);
   box-shadow: 2px 3px 10px rgb(255, 77, 137);
+}
+
+.image-p {
+  width: 570px;
 }
