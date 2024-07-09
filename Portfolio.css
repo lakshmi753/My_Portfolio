@@ -11,6 +11,7 @@ body {
   margin: 0;
   margin-top: 130px;
   font-family: sans-serif;
+  padding-bottom: 1000px;
 }
 
 header {
@@ -366,7 +367,7 @@ header {
   font-size: 0;
   overflow-x: auto;
   scrollbar-width: none;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 .images-box::-webkit-scrollbar {
   display: none;
@@ -402,12 +403,15 @@ header {
 
 .discription {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16.5px;
   color: black;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 0;
   text-align: center;
+  line-height: 0.6cm;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .discription strong {
