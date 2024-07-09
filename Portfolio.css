@@ -123,7 +123,7 @@ header {
   align-items: flex-start;
   color: var(--secondary-color);
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: 900;
   padding-top: 50px;
   padding-left: 80px;
 }
@@ -308,7 +308,6 @@ header {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  border-bottom: 1px solid black;
 }
 
 .projects-box2 {
@@ -417,4 +416,40 @@ header {
 .discription strong {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.contacts-box2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.contacts-box2a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.contacts-box-a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
 }
