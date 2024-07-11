@@ -11,7 +11,6 @@ body {
   margin: 0;
   margin-top: 130px;
   font-family: sans-serif;
-  padding-bottom: 1000px;
 }
 
 header {
@@ -423,7 +422,6 @@ header {
   flex-direction: column;
   gap: 40px;
   margin-bottom: 20px;
-  border-bottom: 1px solid black;
 }
 
 .contacts-box2 {
@@ -432,8 +430,13 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 40px;
-  border: 1px solid black;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 80px;
 }
 
 .contacts-box2a {
@@ -441,8 +444,6 @@ header {
   flex-direction: column;
   padding-left: 20px;
   height: 500px;
-  width: 500px;
-  border: 1px solid black;
 }
 
 .contacts-box {
@@ -453,6 +454,7 @@ header {
 }
 
 .contacts-box-a {
+  width: 450px;
   display: flex;
   gap: 10px;
   flex-direction: row;
@@ -465,13 +467,13 @@ header {
 }
 
 .contacts-image {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin: 20px;
 }
 
 .contacts-p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: black;
   margin-right: 20px;
@@ -480,13 +482,14 @@ header {
 .mail-box {
   align-items: center;
   justify-content: center;
+  padding-right: 20px;
 }
 
 .mail-box-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 400px;
+  height: 380px;
   width: 350px;
   align-items: center;
   justify-content: center;
@@ -523,6 +526,23 @@ header {
   height: 80px;
   resize: none;
   overflow: hidden;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mail-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 77, 137);
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  color: black;
+  box-shadow: 3px 3px 5px var(--secondary-dark-color);
+  transition: background-color 0.15s;
+}
+
+.mail-btn:hover {
+  background-color: rgba(0, 0, 0, 0.4);
 }
