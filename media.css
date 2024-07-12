@@ -95,11 +95,24 @@
     align-items: center;
   }
 
+  .contacts-box-a {
+    width: 300px;
+  }
+
+  .contacts-image {
+    height: 30px;
+    width: 30px;
+  }
+
+  .contacts-p {
+    font-size: 18px;
+  }
+
   .mail-box {
     margin-bottom: 20px;
   }
 
   .mail-box-form {
-    width: 450px;
+    width: 300px;
   }
 }
