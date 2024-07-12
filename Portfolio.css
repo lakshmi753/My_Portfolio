@@ -149,7 +149,7 @@ header {
   padding-right: 50px;
   font-size: 30px;
   line-height: 2cm;
-  font-weight: bolder;
+  font-weight: 900;
   text-align: center;
   color: black;
 }
@@ -222,7 +222,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
   padding: 10px;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -236,7 +235,7 @@ header {
 
 .about-box4 p {
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: 900;
   color: black;
   margin-top: 10px;
 }
@@ -246,7 +245,6 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex: 1;
   gap: 50px;
   margin: 10px;
   padding: 10px;
@@ -285,7 +283,7 @@ header {
   border: none;
   border-radius: 30px;
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: 900;
   cursor: pointer;
   color: black;
   background-color: rgb(255, 77, 137);
@@ -539,10 +537,106 @@ header {
   font-weight: 900;
   cursor: pointer;
   color: black;
-  box-shadow: 3px 3px 5px var(--secondary-dark-color);
+  box-shadow: 3px 3px 5px black;
   transition: background-color 0.15s;
 }
 
 .mail-btn:hover {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 815px) and (max-width: 1337px) {
+  body {
+    margin-top: 110px;
+  }
+
+  header {
+    height: 90px;
+  }
+
+  .header-img {
+    height: 90px;
+    width: 280px;
+  }
+
+  .header-img p {
+    font-size: 20px;
+  }
+
+  .dev-pic {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .dark-pic {
+    height: 38px;
+    width: 38px;
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+
+  .quote-box {
+    width: 800px;
+  }
+
+  .quote-box p {
+    font-size: 25px;
+    line-height: 1.5cm;
+  }
+
+  .about-box4 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .about-box2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .skill-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .tabbed-btn {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .slider-container {
+    max-width: 615px;
+  }
+
+  .contacts-box2 {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 30px;
+  }
+
+  .contacts-box2a {
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contacts-box {
+    align-items: center;
+  }
+
+  .mail-box {
+    margin-bottom: 20px;
+  }
+
+  .mail-box-form {
+    width: 450px;
+  }
 }
