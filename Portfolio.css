@@ -642,7 +642,7 @@ header {
   }
 }
 
-@media (min-width: 567px) and (max-width: 814px) {
+@media (min-width: 567px) and (max-width: 815px) {
   body {
     margin-top: 110px;
   }
@@ -837,7 +837,7 @@ header {
   }
 }
 
-@media (max-width: 566px) {
+@media (min-width: 390px) and (max-width: 566px) {
   body {
     margin-top: 100px;
   }
@@ -888,7 +888,7 @@ header {
   }
 
   .intro-box {
-    height: 650px;
+    height: 580px;
   }
 
   .intro-title {
@@ -971,17 +971,220 @@ header {
 
   .discription-title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .discription {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 0.6cm;
   }
 
   .discription strong {
+    font-size: 12px;
+  }
+
+  .contacts-box2 {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 30px;
+  }
+
+  .contacts-box2a {
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contacts-box {
+    align-items: center;
+  }
+
+  .contacts-box-a {
+    width: 280px;
+    gap: 5px;
+  }
+
+  .contacts-image {
+    height: 24px;
+    width: 24px;
+    margin: 10px;
+  }
+
+  .contacts-p {
+    font-size: 14px;
+  }
+
+  .mail-box {
+    margin-bottom: 20px;
+  }
+
+  .mail-inputs {
+    font-size: 12px;
+    height: 25px;
+    width: 230px;
+  }
+
+  .mail-inputs::placeholder {
+    font-size: 12px;
+  }
+
+  .mail-btn {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .mail-box-form {
+    width: 280px;
+  }
+}
+
+@media (max-width: 389px) {
+  body {
+    margin-top: 100px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .links-box {
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .nav-link {
     font-size: 15px;
+  }
+
+  .dark-pic {
+    height: 32px;
+    width: 32px;
+  }
+
+  .section-title {
+    font-size: 21px;
+  }
+
+  .quote-box {
+    width: 350px;
+  }
+
+  .quote-box p {
+    font-size: 16px;
+    line-height: 1cm;
+    font-weight: 700;
+  }
+
+  .about-box2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about-box2a {
+    width: 350px;
+  }
+
+  .intro-box {
+    height: 580px;
+  }
+
+  .intro-title {
+    font-size: 13px;
+  }
+
+  .intro {
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .about-box4 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .about-box4 p {
+    font-size: 15px;
+  }
+
+  .skill-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .skill {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .about-box3 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tabbed-btn {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+  }
+
+  .slider-container {
+    max-width: 350px;
+  }
+
+  .slide-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #prev-btn {
+    z-index: 999;
+    left: -13px;
+    /*display: none;*/
+  }
+
+  #next-btn {
+    right: -18px;
+  }
+
+  .image {
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+  }
+
+  .image-p {
+    width: 350px;
+  }
+
+  .discription-title {
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  .discription {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0.6cm;
+  }
+
+  .discription strong {
+    font-size: 12px;
   }
 
   .contacts-box2 {
