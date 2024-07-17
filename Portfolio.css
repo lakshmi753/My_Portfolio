@@ -5,6 +5,13 @@
   --secondary-dark-color: rgba(0, 0, 0, 0.852);
 }
 
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: rgb(253, 198, 208);
+  --primary-light-color: rgb(0, 0, 0, 0.852);
+  --secondary-dark-color: rgb(254, 205, 234);
+}
+
 html,
 body {
   width: auto !important;
@@ -145,9 +152,9 @@ header {
   justify-content: center;
   height: 300px;
   width: 1000px;
-  border: 1px solid black;
+  border: 1px solid var(--secondary-color);
   margin-top: 60px;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 10px var(--secondary-dark-color);
 }
 
 .quote-box p {
@@ -157,7 +164,7 @@ header {
   line-height: 2cm;
   font-weight: 700;
   text-align: center;
-  color: black;
+  color: var(--secondary-color);
 }
 
 .hidden {
@@ -305,7 +312,7 @@ header {
 
 .tabbed-btn:active,
 .tabbed-btn:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(249, 147, 227);
 }
 
 .projects {
@@ -347,7 +354,7 @@ header {
 }
 
 .slide-btn:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(249, 147, 227);
 }
 
 #prev-btn {
@@ -549,7 +556,7 @@ header {
 }
 
 .mail-btn:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 815px) and (max-width: 1337px) {
