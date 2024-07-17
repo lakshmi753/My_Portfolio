@@ -87,10 +87,11 @@ header {
   color: var(--primary-color);
   font-size: 30px;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
 .nav-item {
-  transition: transform 0.15s;
+  transition: transform 0.14s;
 }
 
 .nav-item:hover {
