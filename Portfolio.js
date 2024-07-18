@@ -1,4 +1,6 @@
 const navLinkUl = document.querySelector(".nav-links");
+const imagesBox = document.querySelector(".images-box");
+const sliderBtn = document.querySelectorAll(".slide-btn");
 
 // Smooth scrolling to the sections.........................
 navLinkUl.addEventListener("click", function (e) {
@@ -29,4 +31,18 @@ lightIcon.addEventListener("click", function () {
   } else {
     lightIcon.src = "./images/moon (4).png";
   }
+});
+
+// Slide using "slide button" ................................
+sliderBtn.forEach((button) => {
+  button.addEventListener("click", function () {
+    // Direction of sliding.....
+    const slideDirection = button.id === "prev-btn" ? -1 : 1;
+
+    // Sliding width......
+    const slideWidth = (imagesBox.clientWidth + 20) * slideDirection;
+
+    // Sliding......
+    imagesBox.scrollBy({ left: slideWidth, behavior: "smooth" });
+  });
 });

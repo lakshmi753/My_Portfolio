@@ -384,7 +384,7 @@ header {
 }
 
 .image {
-  width: 593.5px;
+  width: 580px;
   height: 450px;
   object-fit: cover;
   border-radius: 12px;
@@ -394,7 +394,7 @@ header {
 }
 
 .image-p {
-  width: 570px;
+  width: 580px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -627,6 +627,27 @@ header {
 
   .slider-container {
     max-width: 615px;
+    width: 100%;
+  }
+
+  #prev-btn {
+    z-index: 999;
+    left: -13px;
+    /*display: none;*/
+  }
+
+  #next-btn {
+    right: -18px;
+  }
+
+  .image {
+    width: 615px;
+    height: 450px;
+    border-radius: 8px;
+  }
+
+  .image-p {
+    width: 615px;
   }
 
   .contacts-box2 {
@@ -751,6 +772,7 @@ header {
 
   .slider-container {
     max-width: 400px;
+    width: 100%;
   }
 
   .slide-btn {
@@ -956,6 +978,7 @@ header {
 
   .slider-container {
     max-width: 350px;
+    width: 100%;
   }
 
   .slide-btn {
@@ -1167,7 +1190,8 @@ header {
   }
 
   .slider-container {
-    max-width: 350px;
+    max-width: 300px;
+    width: 100%;
   }
 
   .slide-btn {
@@ -1189,13 +1213,13 @@ header {
   }
 
   .image {
-    width: 250px;
+    width: 300px;
     height: 450px;
     border-radius: 8px;
   }
 
   .image-p {
-    width: 250px;
+    width: 300px;
   }
 
   .discription-title {
