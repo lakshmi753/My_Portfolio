@@ -40,7 +40,7 @@ sliderBtn.forEach((button) => {
     const slideDirection = button.id === "prev-btn" ? -1 : 1;
 
     // Sliding width......
-    const slideWidth = (imagesBox.clientWidth + 20) * slideDirection;
+    const slideWidth = (imagesBox.clientWidth + 10) * slideDirection;
 
     // Sliding......
     imagesBox.scrollBy({ left: slideWidth, behavior: "smooth" });
