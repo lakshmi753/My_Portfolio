@@ -140,13 +140,75 @@ header {
   padding-left: 80px;
 }
 
-.home-box2 {
+/*.home-box2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}*/
+
+.home-box2 {
+  overflow: hidden;
+  height: 300px;
+  width: 1000px;
+  margin-left: 260px;
+  margin-top: 50px;
+  border: 1px solid var(--secondary-color);
+  box-shadow: 3px 3px 10px var(--secondary-dark-color);
+}
+
+@-webkit-keyframes slide_animation {
+  0% {
+    bottom: 0px;
+  }
+  15% {
+    bottom: 0px;
+  }
+  25% {
+    bottom: 328px;
+  }
+  35% {
+    bottom: 328px;
+  }
+  45% {
+    bottom: 685px;
+  }
+  55% {
+    bottom: 685px;
+  }
+  65% {
+    bottom: 328px;
+  }
+  75% {
+    bottom: 328px;
+  }
+  85% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 0px;
+  }
 }
 
 .quote-box {
+  width: 1000px;
+  height: 850px;
+  margin: 0;
+  margin-bottom: -600px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+
+.quote-box-a {
+  height: 300px;
+  width: 1000px;
+  position: relative;
+}
+
+/*.quote-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,7 +217,7 @@ header {
   border: 1px solid var(--secondary-color);
   margin-top: 60px;
   box-shadow: 3px 3px 10px var(--secondary-dark-color);
-}
+}*/
 
 .quote-box p {
   padding-left: 50px;
