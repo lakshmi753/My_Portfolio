@@ -140,12 +140,6 @@ header {
   padding-left: 80px;
 }
 
-/*.home-box2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*/
-
 .home-box2 {
   overflow: hidden;
   height: 300px;
@@ -154,6 +148,7 @@ header {
   margin-top: 50px;
   border: 1px solid var(--secondary-color);
   box-shadow: 3px 3px 10px var(--secondary-dark-color);
+  backdrop-filter: blur(6px);
 }
 
 @-webkit-keyframes slide_animation {
@@ -207,17 +202,6 @@ header {
   width: 1000px;
   position: relative;
 }
-
-/*.quote-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  width: 1000px;
-  border: 1px solid var(--secondary-color);
-  margin-top: 60px;
-  box-shadow: 3px 3px 10px var(--secondary-dark-color);
-}*/
 
 .quote-box p {
   padding-left: 50px;
