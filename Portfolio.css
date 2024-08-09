@@ -191,7 +191,7 @@ header {
   margin-bottom: -600px;
   position: relative;
   -webkit-animation-name: slide_animation;
-  -webkit-animation-duration: 33s;
+  -webkit-animation-duration: 23s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
   -webkit-animation-play-state: running;
@@ -453,7 +453,7 @@ header {
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
 
@@ -464,15 +464,22 @@ header {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 0;
-  text-align: center;
-  line-height: 0.6cm;
+  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.discription strong {
+.discription li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.strong {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .contacts {
