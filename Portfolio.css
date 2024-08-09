@@ -1107,13 +1107,12 @@ header {
   }
 
   .discription {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 0.6cm;
+    font-weight: 700;
+    font-size: 13px;
   }
 
-  .discription strong {
-    font-size: 15px;
+  .strong {
+    font-size: 17px;
   }
 
   .contacts-box2 {
@@ -1353,17 +1352,16 @@ header {
 
   .discription-title {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .discription {
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 0.6cm;
+    font-weight: 700;
+    font-size: 12px;
   }
 
-  .discription strong {
-    font-size: 12px;
+  .strong {
+    font-size: 14px;
   }
 
   .contacts-box2 {
@@ -1609,13 +1607,12 @@ header {
   }
 
   .discription {
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 0.6cm;
+    font-weight: 700;
+    font-size: 12px;
   }
 
-  .discription strong {
-    font-size: 12px;
+  .strong {
+    font-size: 15px;
   }
 
   .contacts-box2 {
@@ -1862,19 +1859,18 @@ header {
 
   .discription-title {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .discription {
     font-weight: 700;
-    font-size: 8px;
-    line-height: 0.47cm;
+    font-size: 12px;
   }
 
-  .discription strong {
-    font-size: 10px;
+  .strong {
+    font-size: 15px;
   }
 
   .contacts-box2 {
