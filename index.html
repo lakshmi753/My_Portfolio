@@ -140,9 +140,31 @@
         <div class="slider-container">
           <button class="slide-btn" id="prev-btn"><</button>
           <div class="images-box">
-            <a href="https://fast753pizzas.netlify.app/" target="_blank"
-              ><img src="images/project-img/fast_pizza-img.png" class="image"
-            /></a>
+            <a href="https://fast753pizzas.netlify.app/" target="_blank">
+              <picture>
+                <source
+                  srcset="images/project-img/1337/1337pizza.png"
+                  media="(min-width:1337px)"
+                />
+                <source
+                  srcset="images/project-img/1037/1037pizza.png"
+                  media="(min-width:1037px)"
+                />
+                <source
+                  media="(min-width:816px)"
+                  srcset="images/project-img/816/816pizza.png"
+                />
+                <source
+                  srcset="images/project-img/575/575pizza.png"
+                  media="(min-width:575px)"
+                />
+                <img
+                  src="images/project-img/1337/1337pizza.png"
+                  alt="pizza"
+                  class="image"
+                />
+              </picture>
+            </a>
             <div class="image image-p">
               <p class="discription-title">PROJECT DISCRIPTION</p>
               <ul class="discription">
@@ -327,7 +349,7 @@
               src="images/contact-icons/whatsapp.png"
               alt="icon"
             />
-            <p class="contacts-p">9219199488</p>
+            <p class="contacts-p">8004781091</p>
           </div>
           <div class="contacts-box-a">
             <img

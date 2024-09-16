@@ -733,7 +733,7 @@ header {
   }
 
   .slider-container {
-    max-width: 615px;
+    max-width: 635px;
     width: 100%;
   }
 
@@ -782,7 +782,7 @@ header {
     width: 450px;
   }
 }
-@media (min-width: 816px) and (max-width: 1036px) {
+@media (min-width: 816px) and (max-width: 1037px) {
   body {
     margin-top: 110px;
   }
@@ -892,7 +892,7 @@ header {
   }
 
   .slider-container {
-    max-width: 615px;
+    max-width: 625px;
     width: 100%;
   }
 
@@ -941,7 +941,7 @@ header {
     width: 450px;
   }
 }
-@media (min-width: 575px) and (max-width: 815px) {
+@media (min-width: 580px) and (max-width: 816px) {
   body {
     margin-top: 110px;
   }
@@ -1080,7 +1080,7 @@ header {
   }
 
   .slider-container {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
   }
 
@@ -1099,7 +1099,7 @@ header {
   }
 
   #next-btn {
-    right: -18px;
+    right: -10px;
   }
 
   .image {
@@ -1180,7 +1180,7 @@ header {
   }
 }
 
-@media (min-width: 450px) and (max-width: 574px) {
+@media (min-width: 450px) and (max-width: 580px) {
   body {
     margin-top: 100px;
   }
@@ -1334,7 +1334,7 @@ header {
   }
 
   .slider-container {
-    max-width: 350px;
+    max-width: 400px;
     width: 100%;
   }
 
@@ -1436,7 +1436,7 @@ header {
   }
 }
 
-@media (min-width: 396px) and (max-width: 449px) {
+@media (min-width: 396px) and (max-width: 450px) {
   body {
     margin-top: 100px;
   }
@@ -1692,7 +1692,7 @@ header {
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 396px) {
   body {
     margin-top: 100px;
   }
