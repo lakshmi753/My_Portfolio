@@ -1103,13 +1103,13 @@ header {
   }
 
   .image {
-    width: 400px;
+    width: 480px;
     height: 450px;
     border-radius: 8px;
   }
 
   .image-p {
-    width: 400px;
+    width: 480px;
   }
 
   .discription-title {
@@ -1357,13 +1357,13 @@ header {
   }
 
   .image {
-    width: 350px;
+    width: 380px;
     height: 450px;
     border-radius: 8px;
   }
 
   .image-p {
-    width: 350px;
+    width: 380px;
   }
 
   .discription-title {
