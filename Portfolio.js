@@ -47,6 +47,19 @@ sliderBtn.forEach((button) => {
   });
 });
 
+// Removing and Displaying slider-button based on thier position........
+sliderBtn[0].style.display = "none";
+
+const maxScrollLeft = imagesBox.scrollWidth - imagesBox.clientWidth;
+
+function handleSliderBtn() {
+  sliderBtn[0].style.display = imagesBox.scrollLeft <= 0 ? "none" : "block";
+  sliderBtn[1].style.display =
+    imagesBox.scrollLeft >= maxScrollLeft ? "none" : "block";
+}
+
+imagesBox.addEventListener("scroll", handleSliderBtn);
+
 // Contact form submission functionality...........................
 const form = document.getElementById("form");
 const result = document.getElementById("result");
